@@ -1,0 +1,15 @@
+.card {
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.buyBtn {
+  width: 100%;
+  background-color: white;
+  color: blue;
+  border: 1px solid lightblue;
+  height: 30px;
+  border-radius: 3px;
+  cursor: pointer;
+}

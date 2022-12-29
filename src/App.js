@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Data from "./components/Data.jsx";
+import List from "./components/List.jsx";
+import SecondList from "./components/SecondList";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Data />
+
+      <List
+        margin="20px"
+        border="1px solid lightgray"
+        question="Why park a domain name in Parkname?"
+        answer="Parkname is the leading industry standard for domain name parking and monetization services."
+      />
+
+      <SecondList />
     </div>
   );
 }
